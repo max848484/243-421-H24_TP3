@@ -43,9 +43,9 @@ Attention, ne pas faire de « write » à répétition puisque les EEPROM on un 
 ![image](https://github.com/max848484/243-421-H24_TP3/assets/156249332/965d0aab-9590-45d5-997d-b792b64ac57a)
 
 ### Pondération
-20% - LCD I2C
-60% - EEPROM read et write
-20% - Bouton
+- 20% - LCD I2C
+- 60% - EEPROM read et write
+- 20% - Bouton
 
 ## Annexe I - Comment créer un projet avec une interface MSSP
 1. Créer un projet dans MPLAB X et ouvrir MCC
