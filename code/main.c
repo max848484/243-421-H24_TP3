@@ -31,6 +31,8 @@ void main(void)
 
     while (1)
     {
+        
+        /* Code qui écrit 3 octets dans la mémoire EEPROM
         while(I2C_Open(ADDRESSE_I2C_ECRAN) == I2C_BUSY);    //Passage de l'adresse
         I2C_SetBuffer(message, 3);                          //Passage des données
         I2C_MasterOperation(0);                             //Démarrer une opération d'écriture
@@ -38,7 +40,7 @@ void main(void)
 
         __delay_ms(1000);
     
-
+        */
         
         
         /* Code qui lit 3 octets de la mémoire EEPROM
